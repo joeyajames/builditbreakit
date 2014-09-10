@@ -31,6 +31,7 @@ public class logappend {
         //log.in = new String[]{"-T", "1", "-K", "secret", "-A", "-E", "Fred", "-R", "5", "log1.txt"};
         log.stringToSave = "";
         //log.parseInput(log.in);
+        //unused comment
         log.parseInput(args);
 		log.encryptPassword();
         if (log.checkPassword())
